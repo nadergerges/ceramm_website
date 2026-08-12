@@ -43,22 +43,26 @@ One continuous ~15s studio film, generated in one call, encoded into four
 sequential segment clips so each chapter owns its copy block. Seams are exact
 consecutive frames of the same take.
 
-Journey (4 chapters over one film):
-1. EARTH (0.00 to 0.28). Title: "Every floor begins as earth". Body: clay of
-   four coasts. Tags: Kaolin, Terracotta, Stoneware.
-2. FORM (0.28 to 0.56). Title: "Pressed, cut, and drawn by hand".
-3. FIRE (0.56 to 0.78). Title: "Fired until earth turns to stone". Tag: 1260 C.
-4. GLAZE (0.78 to 1.00). Title: "Finished in cobalt, tin, and ash".
-   Actions: "View the collection" anchor CTA.
-No chapter kickers (eyebrow budget stays at 2 page wide).
+Journey (4 chapters over one film) v2, per owner direction: the film shows
+ceramics INSTALLED, not made. One continuous steadicam walkthrough:
+1. FLOORS (0.00 to 0.28). Title: "Floors that hold the room". Living room,
+   terracotta floor, designer furniture. Offer stated in body.
+2. WALLS (0.28 to 0.56). Title: "The same earth climbs the walls". Kitchen
+   wall in cobalt patterned tile, camera rises.
+3. POOLSIDE (0.56 to 0.78). Title: "Cool underfoot, poolside". Cobalt glazed
+   pool edge, water reflections. Tags: R11, Frost proof.
+4. AT WORK (0.78 to 1.00). Title: "Graded for the crowd". Bright office lobby,
+   large format porcelain. Actions: "View the collection" anchor CTA.
+No chapter kickers.
 
-World grammar: macro studio product film, seamless porcelain white cove
-backdrop, soft north daylight from upper left, one centered square clay tile,
-slow continuous transformation (raw clay slab, pressed tile, kiln glow, cobalt
-glaze flowing across the face), locked exposure, no cuts, no on-screen text.
+World grammar: one unbroken cinematic steadicam glide through connected
+spaces (living room, kitchen wall, arched doorway, pool terrace, office
+lobby), natural warm daylight, porcelain, terracotta and cobalt palette,
+photorealistic architecture film, no people, locked exposure, no cuts, no
+on-screen text.
 
-Camera architecture: single continuous push-in with a slight orbit; start state
-(raw clay slab) differs from end state (finished glazed floor tile).
+Camera architecture: continuous forward glide; start (living room floor)
+differs from end (office lobby wide).
 
 Mobile framing: subject centered inside the center-safe third; lighter 720p
 mobile encodes.
@@ -78,11 +82,15 @@ scrolling; the finished piece hands off to the collection below.
 4. Provenance: asymmetric split, mono spec table with generated icons, tall
    workshop photo, oversized cobalt numeral 1260 as structure (family: split).
    Eyebrow: "Provenance".
-5. Glaze macro: full-bleed image band, one line of copy (family: image band).
+5. Who we are: manifesto plus three frame strip, showroom, grading, quay
+   (family: editorial manifesto).
+6. Glaze macro: full-bleed image band, one line of copy (family: image band).
    Second-read moment: macro crop carrying the accent color.
-6. Visit and trade: kaolin banner panel with two bespoke CTAs plus footer
+7. Visit and trade: kaolin banner panel with two bespoke CTAs plus footer
    (family: banner).
-Eyebrow budget: ceil(6/3) = 2. Used: Collections, Provenance.
+Later additions: tile library (bento), origins chart (map), room studio
+(configurator tabs). Eyebrow budget at 9 sections: 3. Used: Collections,
+Tile library, Provenance.
 
 ## Combinatorial pick (boards)
 - Theme paradigm: Pristine Light (porcelain paper, warm ink)

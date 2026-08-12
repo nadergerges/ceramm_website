@@ -90,6 +90,7 @@ export function RoomStudio() {
             className={`cm-scene-floor${tile.selfTiled ? " is-self-tiled" : ""} grout-${groutId}`}
             style={{ backgroundImage: `url(${tile.texture})` }}
           />
+          <div className="cm-scene-light" aria-hidden="true" />
           <div className="cm-scene-haze" aria-hidden="true" />
           <img className="cm-scene-room" src={room.overlay} alt={`${room.name} with ${tile.name} laid on the floor`} />
         </div>

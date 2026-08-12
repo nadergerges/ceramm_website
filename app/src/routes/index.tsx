@@ -8,6 +8,7 @@ import { OriginsMap } from "@/components/ceramm/origins-map";
 import { RoomStudio } from "@/components/ceramm/room-studio";
 import { Collections, GlazeBand, Provenance, Visit } from "@/components/ceramm/sections";
 import { TileExplorer } from "@/components/ceramm/tile-explorer";
+import { WhoWeAre } from "@/components/ceramm/who-we-are";
 import { scrollScrubScenes, scrollScrubTheme } from "@/scroll-scrub-scenes";
 
 const SITE_NAME = "CERAMM";
@@ -63,6 +64,7 @@ function Index() {
           <TileExplorer />
           <OriginsMap />
           <Provenance />
+          <WhoWeAre />
           <GlazeBand />
           <RoomStudio />
           <Visit />

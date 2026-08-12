@@ -75,6 +75,9 @@ export function CerammNav() {
                 {link.label}
               </a>
             ))}
+            <a href="#about" onClick={closeSheet}>
+              Who we are
+            </a>
             <a href="mailto:hello@ceramm.com?subject=Showroom%20visit" onClick={closeSheet}>
               Plan a visit
             </a>
