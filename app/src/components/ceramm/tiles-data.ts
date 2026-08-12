@@ -264,9 +264,10 @@ export interface RoomDef {
   tilt: number;
 }
 
+/** horizon values measured from each keyed plate's topmost floor pixels. */
 export const ROOMS: RoomDef[] = [
-  { id: "kitchen", name: "Kitchen", overlay: "/assets/rooms/kitchen.webp", horizon: 52, tilt: 61 },
-  { id: "living", name: "Living room", overlay: "/assets/rooms/living.webp", horizon: 54, tilt: 61 },
-  { id: "bath", name: "Bathroom", overlay: "/assets/rooms/bath.webp", horizon: 53, tilt: 61 },
-  { id: "terrace", name: "Terrace", overlay: "/assets/rooms/terrace.webp", horizon: 50, tilt: 62 },
+  { id: "kitchen", name: "Kitchen", overlay: "/assets/rooms/kitchen.webp", horizon: 70, tilt: 63 },
+  { id: "living", name: "Living room", overlay: "/assets/rooms/living.webp", horizon: 74, tilt: 64 },
+  { id: "bath", name: "Bathroom", overlay: "/assets/rooms/bath.webp", horizon: 59, tilt: 62 },
+  { id: "terrace", name: "Terrace", overlay: "/assets/rooms/terrace.webp", horizon: 54, tilt: 62 },
 ];
