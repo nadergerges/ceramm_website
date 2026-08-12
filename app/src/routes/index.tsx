@@ -14,7 +14,7 @@ import { scrollScrubScenes, scrollScrubTheme } from "@/scroll-scrub-scenes";
 
 const SITE_NAME = "CERAMM";
 const SITE_DESCRIPTION =
-  "Imported ceramics from Italy, Spain, France, and the Middle East, chosen at the kiln door.";
+  "Ceramic floor tiles imported from Italy, Spain, France, and the Middle East, for homes and commercial spaces.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

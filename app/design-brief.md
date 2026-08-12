@@ -1,12 +1,17 @@
 # CERAMM design brief
 
-Design read: For interior designers, architects, and homeowners sourcing imported
-ceramics; the register is the quiet confidence of a gallery warmed by fired earth.
+Product: CERAMM imports ceramic floor tiles (residential and commercial
+flooring) from Italy, Spain, France, and the Middle East.
+
+Design read: For homeowners, interior designers, architects, and contractors
+choosing imported tile floors; the register is the quiet confidence of a
+gallery warmed by fired earth.
 
 Concept spine: THE KILN JOURNEY. The site performs the geological life of a
-ceramic piece: scrolling excavates clay, throws it, fires it, and glazes it,
-then opens into the collection and the four coasts it comes from. Spine family:
-journey/waypoints (the waypoints are Italy, Spain, France, the Middle East).
+floor tile: scrolling excavates clay, presses it, fires it, and glazes it,
+then opens into the tile collections and the four coasts they come from. Spine
+family: journey/waypoints (the waypoints are Italy, Spain, France, the Middle
+East).
 
 Delivery tier: cinema (Lenis + GSAP micro-motion around the scroll-scrub journey).
 
@@ -39,21 +44,21 @@ sequential segment clips so each chapter owns its copy block. Seams are exact
 consecutive frames of the same take.
 
 Journey (4 chapters over one film):
-1. EARTH (0.00 to 0.28). Title: "Every piece begins as earth". Body: clay of
+1. EARTH (0.00 to 0.28). Title: "Every floor begins as earth". Body: clay of
    four coasts. Tags: Kaolin, Terracotta, Stoneware.
-2. FORM (0.28 to 0.56). Title: "Thrown by hands, held for generations".
+2. FORM (0.28 to 0.56). Title: "Pressed, cut, and drawn by hand".
 3. FIRE (0.56 to 0.78). Title: "Fired until earth turns to stone". Tag: 1260 C.
 4. GLAZE (0.78 to 1.00). Title: "Finished in cobalt, tin, and ash".
    Actions: "View the collection" anchor CTA.
 No chapter kickers (eyebrow budget stays at 2 page wide).
 
 World grammar: macro studio product film, seamless porcelain white cove
-backdrop, soft north daylight from upper left, one centered terracotta vessel,
-slow continuous transformation (raw clay, invisible wheel, kiln glow, cobalt
-glaze), locked exposure, no cuts, no on-screen text.
+backdrop, soft north daylight from upper left, one centered square clay tile,
+slow continuous transformation (raw clay slab, pressed tile, kiln glow, cobalt
+glaze flowing across the face), locked exposure, no cuts, no on-screen text.
 
 Camera architecture: single continuous push-in with a slight orbit; start state
-(raw clay lump) differs from end state (finished glazed amphora).
+(raw clay slab) differs from end state (finished glazed floor tile).
 
 Mobile framing: subject centered inside the center-safe third; lighter 720p
 mobile encodes.
@@ -65,8 +70,9 @@ scrolling; the finished piece hands off to the collection below.
 
 ## Section plan (no consecutive family repeats; 6 content sections, 5 families)
 1. Journey: scroll-scrub film, 4 chapters (family: cinematic scrub).
-2. Collections: asymmetric off-grid editorial grid, 4 categories with index
-   digits (family: editorial grid). Eyebrow: "Collections".
+2. Collections: asymmetric off-grid editorial grid, 4 tile lines with index
+   digits: Stoneware, Terracotta, Patterned, Commercial (family: editorial
+   grid). Eyebrow: "Collections".
 3. Origins: full-width hairline-divided rows, one per coast, hover image crop
    (family: row list).
 4. Provenance: asymmetric split, mono spec table with generated icons, tall
@@ -98,9 +104,10 @@ Eyebrow budget: ceil(6/3) = 2. Used: Collections, Provenance.
 - Storyboard: one 16:9 six-keyframe grid (design source for the film).
 - Boards: five section boards (S2 to S6).
 - Section plates: kaolin paper grain; clay strata macro band.
-- Content imagery: 4 collection tiles (dinnerware, vessels, tiles,
-  architectural), 4 origin images (Italy, Spain, France, Middle East),
-  1 cobalt glaze macro, 1 workshop vertical.
+- Content imagery: 4 collection images (stoneware, terracotta tomettes,
+  patterned, commercial slabs), 4 origin images (Sassuolo stoneware,
+  Castellón azulejos, Salernes tomettes, Iznik fritware), 1 cobalt glaze
+  macro, 1 tile workshop vertical.
 - Icon set: one sheet, 8 glyphs, 2px ink stroke (strata, wheel, kiln, glaze
   drop, ship, stamp, tile, thermometer), sliced with background removed.
 - Brand mark: potter's stamp (amphora in a thin double circle) in cobalt;

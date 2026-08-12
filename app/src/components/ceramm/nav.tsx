@@ -39,7 +39,7 @@ export function CerammFooter() {
       <div className="cm-footer-inner">
         <div>
           <span className="cm-wordmark">CERAMM</span>
-          <p className="cm-mono-note">Imported ceramics, chosen at the kiln door.</p>
+          <p className="cm-mono-note">Imported ceramic floors, chosen at the kiln door.</p>
         </div>
         <p className="cm-footer-regions">Italy · Spain · France · Middle East</p>
         <p className="cm-mono-note">

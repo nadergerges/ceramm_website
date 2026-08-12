@@ -1,36 +1,37 @@
 /**
  * CERAMM content sections after the kiln journey.
+ * CERAMM imports ceramic floor tiles for residential and commercial spaces.
  * Layout families and copy are locked in app/design-brief.md; the reference
  * boards in refs/ are the visual source of truth.
  */
 
 const COLLECTIONS = [
   {
-    desc: "Amphorae, urns, and studio vases from family potteries.",
+    desc: "Large format porcelain stoneware for kitchens, baths, and high traffic rooms.",
     digit: "01",
-    image: "/assets/collections/vessels.jpg",
-    name: "Vessels",
+    image: "/assets/collections/stoneware.jpg",
+    name: "Stoneware",
     shape: "cm-tile-tall",
   },
   {
-    desc: "Majolica plates, serving bowls, and hand painted platters.",
+    desc: "Tomettes and cotto floors, warm underfoot and ageless.",
     digit: "02",
-    image: "/assets/collections/dinnerware.jpg",
-    name: "Dinnerware",
+    image: "/assets/collections/terracotta.jpg",
+    name: "Terracotta",
     shape: "cm-tile-wide",
   },
   {
-    desc: "Zellige, azulejos, and terracotta for walls and floors.",
+    desc: "Azulejos, Iznik motifs, and hand painted field tiles.",
     digit: "03",
-    image: "/assets/collections/tiles.jpg",
-    name: "Tile",
+    image: "/assets/collections/patterned.jpg",
+    name: "Patterned",
     shape: "cm-tile-square",
   },
   {
-    desc: "Basins, planters, and garden ceramics at scale.",
+    desc: "Technical slabs graded for shops, lobbies, and terraces.",
     digit: "04",
-    image: "/assets/collections/architectural.jpg",
-    name: "Architectural",
+    image: "/assets/collections/commercial.jpg",
+    name: "Commercial",
     shape: "cm-tile-square",
   },
 ];
@@ -44,7 +45,7 @@ export function Collections() {
         className="cm-display cm-reveal"
         style={{ fontSize: "clamp(2.4rem, 5.5vw, 4.2rem)", marginTop: "1rem" }}
       >
-        Four ways to live with fired earth
+        Four ways to floor with fired earth
       </h2>
       <div className="cm-tiles">
         {COLLECTIONS.map((item) => (
@@ -68,36 +69,36 @@ export function Collections() {
 
 const ORIGINS = [
   {
-    clay: "Red earthenware",
-    craft: "Majolica and terracotta",
+    clay: "Red and white body stoneware",
+    craft: "Porcelain stoneware and cotto",
     image: "/assets/origins/italy.jpg",
     index: "I",
     name: "Italy",
-    places: "Faenza · Deruta · Grottaglie",
+    places: "Sassuolo · Impruneta · Faenza",
   },
   {
     clay: "Tin glazed earthenware",
-    craft: "Lusterware and azulejos",
+    craft: "Azulejos and porcelain tile",
     image: "/assets/origins/spain.jpg",
     index: "II",
     name: "Spain",
-    places: "Manises · Talavera de la Reina",
+    places: "Castellón · Onda · Manises",
   },
   {
-    clay: "Kaolin porcelain and faience",
-    craft: "Faience and porcelain",
+    clay: "Red terracotta",
+    craft: "Tomettes and terre cuite",
     image: "/assets/origins/france.jpg",
     index: "III",
     name: "France",
-    places: "Provence · Limoges",
+    places: "Salernes · Provence",
   },
   {
     clay: "Quartz fritware",
-    craft: "Fritware and cobalt ware",
+    craft: "Fritware and cobalt tile",
     image: "/assets/origins/middle-east.jpg",
     index: "IV",
     name: "Middle East",
-    places: "Iznik · Hebron",
+    places: "Iznik · Jerusalem",
   },
 ];
 
@@ -135,11 +136,11 @@ export function Origins() {
 }
 
 const SPECS = [
-  { icon: "/assets/icons/icon-wheel.png", key: "Family workshops", value: "38" },
+  { icon: "/assets/icons/icon-kiln.png", key: "Partner factories", value: "38" },
   { icon: "/assets/icons/icon-ship.png", key: "Import regions", value: "4" },
-  { icon: "/assets/icons/icon-thermometer.png", key: "Firing range", value: "960 to 1300 C" },
-  { icon: "/assets/icons/icon-kiln.png", key: "Lead time", value: "6 to 10 weeks" },
-  { icon: "/assets/icons/icon-stamp.png", key: "Every piece", value: "Maker marked" },
+  { icon: "/assets/icons/icon-thermometer.png", key: "Firing range", value: "1050 to 1300 C" },
+  { icon: "/assets/icons/icon-tile.png", key: "Wear rating", value: "Up to PEI V" },
+  { icon: "/assets/icons/icon-stamp.png", key: "Every batch", value: "Factory marked" },
 ];
 
 export function Provenance() {
@@ -159,9 +160,9 @@ export function Provenance() {
             We buy at the kiln door
           </h2>
           <p className="cm-body-copy" style={{ marginTop: "1.5rem" }}>
-            CERAMM works directly with family workshops, not exporters. Every
-            shipment is documented from quarry to container, and every piece
-            arrives with its maker's name.
+            CERAMM buys directly from family factories, not exporters. Every
+            batch is documented from quarry to container and arrives graded,
+            sorted, and marked with its maker's name.
           </p>
           <dl className="cm-spec">
             {SPECS.map((spec) => (
@@ -177,7 +178,7 @@ export function Provenance() {
           <img
             className="cm-settle"
             src="/assets/plates/workshop.jpg"
-            alt="Unfired clay vessels drying on wooden racks in a workshop"
+            alt="Freshly pressed clay floor tiles drying on wooden racks in a workshop"
             loading="lazy"
           />
         </div>
@@ -197,9 +198,9 @@ export function GlazeBand() {
       />
       <div className="cm-band-copy">
         <p className="cm-band-line">
-          Cobalt oxide. The one pigment every coast we buy from shares.
+          Cobalt oxide. The one pigment every coast we import from shares.
         </p>
-        <p className="cm-band-caption">Glaze detail · Iznik fritware</p>
+        <p className="cm-band-caption">Glaze detail · Iznik floor tile</p>
       </div>
     </section>
   );
@@ -210,11 +211,13 @@ export function Visit() {
     <section id="visit" className="cm-section" aria-labelledby="visit-title">
       <div className="cm-visit-panel cm-grain">
         <h2 id="visit-title" className="cm-display cm-reveal" style={{ fontSize: "clamp(2.2rem, 4.5vw, 3.6rem)" }}>
-          See the collection in person
+          Walk on it before you choose it
         </h2>
         <p className="cm-body-copy" style={{ margin: "0 auto" }}>
-          The CERAMM showroom is open Tuesday through Saturday. Trade clients
-          can request the current import catalog by email.
+          The CERAMM showroom lays each collection into full size room sets,
+          for homes and commercial projects alike. Open Tuesday through
+          Saturday. Architects and contractors can request the trade catalog
+          by email.
         </p>
         <div className="cm-visit-ctas">
           <a className="cm-stamp" href="mailto:hello@ceramm.com?subject=Showroom%20visit">

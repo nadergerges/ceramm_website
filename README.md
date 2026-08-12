@@ -1,10 +1,11 @@
 # CERAMM — marketing website
 
-CERAMM sells ceramics imported from Italy, Spain, France, and the Middle East.
-This branch carries the source of the CERAMM marketing site: an animated
-"kiln journey" website where the visitor's scroll plays a generated film of a
-vessel being formed, fired, and glazed, followed by the collection, origins,
-provenance, and showroom sections.
+CERAMM imports ceramic floor tiles for residential and commercial spaces from
+Italy, Spain, France, and the Middle East. This branch carries the source of
+the CERAMM marketing site: an animated "kiln journey" website where the
+visitor's scroll plays a generated film of a floor tile being pressed, fired,
+and glazed, followed by the tile collections, origins, provenance, and
+showroom sections.
 
 ## Where it runs
 
