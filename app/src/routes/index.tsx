@@ -1,15 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 import { ScrollScrub } from "@/components/scroll-scrub/scroll-scrub";
+import { CerammProvider } from "@/components/ceramm/ceramm-store";
 import { CerammMotion } from "@/components/ceramm/motion";
-import { CerammFooter, CerammNav } from "@/components/ceramm/nav";
-import {
-  Collections,
-  GlazeBand,
-  Origins,
-  Provenance,
-  Visit,
-} from "@/components/ceramm/sections";
+import { CerammFooter, CerammMobileBar, CerammNav } from "@/components/ceramm/nav";
+import { OriginsMap } from "@/components/ceramm/origins-map";
+import { RoomStudio } from "@/components/ceramm/room-studio";
+import { Collections, GlazeBand, Provenance, Visit } from "@/components/ceramm/sections";
+import { TileExplorer } from "@/components/ceramm/tile-explorer";
 import { scrollScrubScenes, scrollScrubTheme } from "@/scroll-scrub-scenes";
 
 const SITE_NAME = "CERAMM";
@@ -48,20 +46,31 @@ export const Route = createFileRoute("/")({
 
 // The whole page IS the kiln journey: the scrub controller owns media time,
 // while every chapter and section stays server-rendered in semantic flow.
+// Interactive systems (tile library, origins chart, room studio) share one
+// selection through CerammProvider.
 function Index() {
   return (
-    <div className="cm-page" id="top">
-      <CerammNav />
-      <main>
-        <ScrollScrub scenes={scrollScrubScenes} theme={scrollScrubTheme} />
-        <Collections />
-        <Origins />
-        <Provenance />
-        <GlazeBand />
-        <Visit />
-      </main>
-      <CerammFooter />
-      <CerammMotion />
-    </div>
+    <CerammProvider>
+      <div className="cm-page" id="top">
+        <CerammNav />
+        <main id="main">
+          <h1 className="cm-sr-only">
+            CERAMM: ceramic floor tiles imported from Italy, Spain, France, and
+            the Middle East
+          </h1>
+          <ScrollScrub scenes={scrollScrubScenes} theme={scrollScrubTheme} />
+          <Collections />
+          <TileExplorer />
+          <OriginsMap />
+          <Provenance />
+          <GlazeBand />
+          <RoomStudio />
+          <Visit />
+        </main>
+        <CerammFooter />
+        <CerammMobileBar />
+        <CerammMotion />
+      </div>
+    </CerammProvider>
   );
 }

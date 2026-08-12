@@ -35,7 +35,7 @@ const viewCollectionCta = createElement(
 export const scrollScrubScenes: ScrollScrubScene[] = [
   {
     align: "left",
-    body: "Kaolin, terracotta, and stoneware clays, dug from the coasts that taught the world to fire them.",
+    body: "CERAMM imports ceramic floor tiles from four coasts. Each begins as earth: kaolin, terracotta, and stoneware clay.",
     clip: "/assets/world/scene-01.mp4",
     id: "earth",
     label: "Earth",
