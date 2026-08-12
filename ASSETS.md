@@ -6,7 +6,7 @@ records what each asset is and the model that produced it.
 
 | Asset (deployed path) | Content | Model |
 |---|---|---|
-| `assets/world/scene-01..04.mp4` (+ mobile + posters) | The kiln-journey film: one continuous 15s take of a clay slab pressed into a tile, fired, and glazed in cobalt, sliced into four chapter segments | MiniMax H3, 2K, storyboard-referenced |
+| `assets/world/scene-01..04.mp4` (+ mobile + posters) | The hero film: one continuous 15s cinematic walkthrough of installed ceramics (living room floor, tiled kitchen wall, cobalt pool edge, office lobby), sliced into four chapter segments | MiniMax H3, 2K, storyboard-referenced |
 | `assets/collections/stoneware.jpg` | Large-format porcelain stoneware stack | Nano Banana Pro |
 | `assets/collections/terracotta.jpg` | Hexagonal tomette floor in raking light | Nano Banana Pro |
 | `assets/collections/patterned.jpg` | Cobalt azulejo/Iznik patterned floor, overhead | Nano Banana Pro |
@@ -24,7 +24,8 @@ records what each asset is and the model that produced it.
 | OG image + marketplace cover (CDN URLs in `app/src/app-meta.json`) | Launch cover: tile still life + CERAMM type lockup | GPT Image 2 + compose pipeline |
 
 | `assets/tiles/*.jpg` (12) | Tile library textures: calacatta slab, greige stone, cotto, azulejo, checker, luster, tomette hex, provence blanc, Iznik, Jerusalem cobalt, Damascus star, Hebron celadon | Nano Banana Pro |
-| `assets/rooms/{kitchen,living,bath,terrace}.webp` | Room studio scenes generated with chroma-key floors, keyed to alpha so the CSS tile floor shows through | Nano Banana Pro + Pillow key |
+| `assets/rooms/{kitchen,living,bath,terrace}.webp` | Room studio scenes: designer interiors shot as 4K chroma-floor plates, keyed to alpha with a shadow catcher (furniture contact shadows survive as translucent dark pixels) | Nano Banana Pro 4K + Pillow key v2 |
+| `assets/about/{showroom,grading,quay}.jpg` | Who-we-are strip: the showroom, grading day, the quay | Nano Banana Pro / GPT Image 2 |
 
 Design boards (working artifacts, not shipped): six 16:9 reference boards and
 one film storyboard, Nano Banana Pro, kept in the deployed repo's `refs/`
