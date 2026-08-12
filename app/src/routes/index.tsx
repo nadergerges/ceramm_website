@@ -23,8 +23,12 @@ export const Route = createFileRoute("/")({
       { href: "/favicon-32.png", rel: "icon", sizes: "32x32", type: "image/png" },
       { href: "/favicon-16.png", rel: "icon", sizes: "16x16", type: "image/png" },
       { href: "/site.webmanifest", rel: "manifest" },
+      { href: "https://ceramm.higgsfield.app/", rel: "canonical" },
     ],
-    meta: [{ content: scrollScrubTheme.background, name: "theme-color" }],
+    meta: [
+      { content: scrollScrubTheme.background, name: "theme-color" },
+      { content: "https://ceramm.higgsfield.app/", property: "og:url" },
+    ],
     scripts: [
       {
         children: JSON.stringify({
