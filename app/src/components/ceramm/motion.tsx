@@ -15,7 +15,7 @@ export function CerammMotion() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     let cancelled = false;
-    let lenis: { destroy: () => void; raf: (t: number) => void; on: (e: string, f: () => void) => void } | null = null;
+    let lenis: { destroy: () => void } | null = null;
     let cleanupGsap: (() => void) | null = null;
     let stampMove: ((event: MouseEvent) => void) | null = null;
 
@@ -30,10 +30,11 @@ export function CerammMotion() {
       const { ScrollTrigger } = stModule;
       gsap.registerPlugin(ScrollTrigger);
 
-      lenis = new Lenis({ autoRaf: false, lerp: 0.12 });
-      lenis.on("scroll", ScrollTrigger.update);
+      const instance = new Lenis({ autoRaf: false, lerp: 0.12 });
+      lenis = instance;
+      instance.on("scroll", ScrollTrigger.update);
       const tick = (time: number) => {
-        lenis?.raf(time * 1000);
+        instance.raf(time * 1000);
       };
       gsap.ticker.add(tick);
       gsap.ticker.lagSmoothing(0);
