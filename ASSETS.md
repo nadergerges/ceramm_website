@@ -23,6 +23,9 @@ records what each asset is and the model that produced it.
 | `favicon*, apple-touch-icon, icon-192/512(+maskable)` | Head kit derived from the brand mark | derived |
 | OG image + marketplace cover (CDN URLs in `app/src/app-meta.json`) | Launch cover: tile still life + CERAMM type lockup | GPT Image 2 + compose pipeline |
 
+| `assets/tiles/*.jpg` (12) | Tile library textures: calacatta slab, greige stone, cotto, azulejo, checker, luster, tomette hex, provence blanc, Iznik, Jerusalem cobalt, Damascus star, Hebron celadon | Nano Banana Pro |
+| `assets/rooms/{kitchen,living,bath,terrace}.webp` | Room studio scenes generated with chroma-key floors, keyed to alpha so the CSS tile floor shows through | Nano Banana Pro + Pillow key |
+
 Design boards (working artifacts, not shipped): six 16:9 reference boards and
 one film storyboard, Nano Banana Pro, kept in the deployed repo's `refs/`
 history only.
